@@ -1,10 +1,9 @@
 {
   "name": "php-webpack-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "A PHP webpack plugin to generate a file containing a PHP associative array manifest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Eric Richer (eric.richer@vistoconsulting.com)",
