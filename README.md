@@ -114,3 +114,15 @@ then 2 PHP files will be created:
             // ... more chunks
         ]
     ];
+
+## Future versions
+
+I want this plugin to evolve.  Ideas for future versions:
+
+- Add templating capability for more control on the content of the output file
+- Add hooks to extend processing using other plugins
+
+## Issues
+
+This is a new package.  Probably not free of bugs. 
+Please raise issues and questions in the [issues](https://github.com/visto9259/php-webpack-plugin/issues) section.
