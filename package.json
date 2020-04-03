@@ -1,5 +1,5 @@
 {
-  "name": "php-webpack-plugin",
+  "name": "@visto9259/php-webpack-plugin",
   "version": "1.0.0",
   "description": "A PHP webpack plugin to generate a file containing a PHP associative array manifest",
   "main": "index.js",
@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visto9259/php-webpack-plugin.git"
   },
   "peerDependencies": {
     "webpack": "^4.42.1"
