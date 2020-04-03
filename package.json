@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A PHP webpack plugin to generate a file containing a PHP associative array manifest",
   "main": "index.js",
-  "scripts": {
-  },
-  "keywords": [],
+  "keywords": ["webpack","php", "plugin"],
   "author": "Eric Richer (eric.richer@vistoconsulting.com)",
   "license": "ISC",
   "dependencies": {
