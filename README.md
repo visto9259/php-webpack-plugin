@@ -35,11 +35,11 @@ this plugin.
 
 Using NPM
 
-    $ npm install php-webpack-plugin
+    $ npm install @visto9259/php-webpack-plugin
     
 Using Yarn
     
-    $ yarn add php-webpack-plugin
+    $ yarn add @visto9259/php-webpack-plugin
 
 
 ### Usage
