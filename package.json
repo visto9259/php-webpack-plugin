@@ -3,7 +3,11 @@
   "version": "1.0.1",
   "description": "A PHP webpack plugin to generate a file containing a PHP associative array manifest",
   "main": "index.js",
-  "keywords": ["webpack","php", "plugin"],
+  "keywords": [
+    "webpack",
+    "php",
+    "plugin"
+  ],
   "author": "Eric Richer (eric.richer@vistoconsulting.com)",
   "license": "MIT",
   "dependencies": {
@@ -14,6 +18,6 @@
     "url": "https://github.com/visto9259/php-webpack-plugin.git"
   },
   "peerDependencies": {
-    "webpack": "^4.42.1"
+    "webpack": "^5.0.0"
   }
 }
