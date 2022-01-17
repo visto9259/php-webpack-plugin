@@ -1,6 +1,6 @@
 {
   "name": "@visto9259/php-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A PHP webpack plugin to generate a file containing a PHP associative array manifest",
   "main": "index.js",
   "keywords": [
