@@ -29,7 +29,16 @@ class PhpWebpackPlugin {
                 output += PHPAssocArrayUtils.arrayKeyWithGT(name, 1);
                 output += PHPAssocArrayUtils.openingBracket(0);
                 chunks.forEach((chunk, key) => {
-                    let asset = path.join(compiler.options.output.publicPath, assets[key]);
+                    let asset;
+                    // if Webpack 5, the asset is an object
+                    if (assets[key] instanceof Object) {
+                        if (assets[key].name) asset = path.join(compiler.options.output.publicPath, assets[key].name);
+                        else console.error('Unsupported asset object');
+                    }
+                    // if Webpack 4, the asset is a string
+                    else if (typeof assets[key] === 'string') asset = path.join(compiler.options.output.publicPath, assets[key]);
+                    // if it changes again
+                    else console.error('Unsupported asset object');
                     asset = asset.replace(/\\/gm,'/');
                     output += PHPAssocArrayUtils.arrayKeyWithGT(chunk, 2) + ` '${asset}',\n`
                 });
